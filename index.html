@@ -1,43 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="A site depicting the best players in the sport of football">
-        <title>Incredible Footballers Page</Title>
-            <style>
-                img{
-                    width: 500px;
-                    border-radius: 400px;
-                    float: left;
-                    margin-right: 10px;
-                }
 
-                p.playername{
-                    font-weight: bolder;
-                }
-                body{
-                    display:flex;
-                    flex-direction: column;
-                    align-items: center;
-                }
-            </style>
-    </head>
-    <header><h1>Incredible Footballers</h1></header>
-    <body>
-        <h3>
-            Attackers
-        </h3>
-        <img src="images/skysports-mohamed-mo-salah_5555663.jpg" alt="This Is Mo Salah Picture"/>
-        <p class="playername">Mohammed Salah</p>
-        <p><strong>Liverpool Forward</strong></p>
-        <br>
-        <img src="images/pic-vinicius.jpg" alt="This is Vinicius Junior Picture"/>
-        <p class="playername">Vinicius Junior</p>
-        <p><strong>Real Madrid Forward</strong></p>
-        <img src="images/lionel-messi_imago1019567000h.jpg" alt="This is Messi Picture"/>
-        <p class="playername">Lionel Messi</p>
-        <p><strong>Inter Miami Forward</strong></p>
-        <br>
-    </body>
-</html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A site depicting the best players in the sport of football">
+    <title>Incredible Footballers Page</Title>
+    <style>
+        img {
+            width: 500px;
+            border-radius: 400px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        p.playername {
+            font-weight: bolder;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<header>
+    <h1>Incredible Footballers</h1>
+</header>
+
+<body>
+    <h3>
+        Attackers
+    </h3>
+    <img src="images/skysports-mohamed-mo-salah_5555663.jpg" alt="This Is Mo Salah Picture" />
+    <p class="playername">Mohammed Salah</p>
+    <p><strong>Liverpool Forward</strong></p>
+    <br>
+    <img src="images/pic-vinicius.jpg" alt="This is Vinicius Junior Picture" />
+    <p class="playername">Vinicius Junior</p>
+    <p><strong>Real Madrid Forward</strong></p>
+    <br>
+    <img src="images/lionel-messi_imago1019567000h.jpg" alt="This is Messi Picture" />
+    <p class="playername">Lionel Messi</p>
+    <p><strong>Inter Miami Forward</strong></p>
+    <br>
+    <h3>
+        Midfielders
+    </h3>
+    <p class="playername">Jude Bellingham</p>
+    <p><strong>Real Madrid Midfielder</strong></p>
+    <br>
+    <p class="playername">Rodri</p>
+    <p><strong>Manchester City Midfielder</strong></p>
+    <h3>
+        Defenders
+    </h3>
+    <p class="playername">Virgil Van Djik</p>
+    <p><strong>Liverpool Defender</strong></p>
+    <p class="playername">William Saliba</p>
+    <p><strong>Arsenal Defender</strong></p>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">
+                    <h3>2024-25 Goal Contributions</h3>
+                </th>
+            </tr>
+            <th>Player</th>
+            <th>Goals</th>
+            <th>Assists</th>
+            <th>Clean Sheets</th>
+        </thead>
+        <tbody>
+            <td class="left">
+                <h3>Mohammed Salah</h3>
+            </td>
+        </tbody>
+
+    </table>
+    <form>
+        <label>Who Should Win Ballon d'Or?</label>
+        <select id="ballodor-1" name="ballondor-1" type="radio" required>
+            <option value="Salah">Mohammed Salah</option>
+            <option value="Vinicius">Vinicius Junior</option>
+            <option valuue="Messi">Lionel Messi</option>
+            <option value="Jude">Jude Bellingham</option>
+            <option value="Rodri">Rodri</option>
+            <option value="Virgil">Virgil Van Djik</option>
+            <option value="Saliba">William Saliba</option>
+        </select>
+        <input type="submit" value="Vote!" />
+
+</body>
+
+
+</form>
+
+</html>
