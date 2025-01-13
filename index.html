@@ -201,7 +201,7 @@
     </div>
     <form>
         <label>Who Should Win Ballon d'Or?</label>
-        <select id="ballodor-1" name="ballondor-1" type="radio" required>
+        <select id="ballodor-1" name="ballondor-1" type="radio">
             <option value="Salah">Mohammed Salah</option>
             <option value="Vinicius">Vinicius Junior</option>
             <option value="Messi">Lionel Messi</option>
@@ -212,8 +212,11 @@
         </select>
         <input type="submit" value="Vote!" />
     </form><br>
-    <label for="other">Who Else Should Be Considered?</label>
-    <textarea id="other" name="other" rows="1" cols="40">Write other options here</textarea>
+    <form>
+        <label for="other">Who Else Should Be Considered?</label>
+        <textarea id="other" name="other" rows="1" cols="40">Write other options here</textarea>
+        <input type="submit" value="Submit!" />
+    </form>
     <footer>
         <p>Contact: kovacsstuart@gmail.com</p>
     </footer>
