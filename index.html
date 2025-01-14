@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -73,7 +73,12 @@
         border: 5px solid;
         font-family: Georgia;
         font-size: 14px;
+        }
 
+        form {
+            display: block;
+            background-color: lightgray;
+            border: 4px black;
         }
     </style>
 </head>
@@ -260,7 +265,7 @@
 
             </table>
         </div>
-        <form>
+        <form action="submission.html" method="get">
             <label>Who Should Win Ballon d'Or?</label>
             <select id="ballodor-1" name="ballondor-1" type="radio">
                 <option value="Salah">Mohammed Salah</option>
@@ -273,7 +278,7 @@
             </select>
             <input type="submit" value="Vote!" />
         </form><br>
-        <form>
+        <form action="submission.html" methord="get">
             <label for="other">Who Else Should Be Considered?</label>
             <textarea id="other" name="other" rows="1" cols="40">Write other options here</textarea>
             <input type="submit" value="Submit!" />
