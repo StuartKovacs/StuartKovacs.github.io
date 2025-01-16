@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lineup Submission</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bolder;
+            font-size: 24px;
+            color: red;
+            background-color: aquamarine;
+            text-align: center;
+        }
+
+        input[type=text] {
+            border-radius: 3px teal;
+            border-color: teal;
+            padding: 8px 12px;
+            box-sizing: border-box;
+            color: teal;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+
+        select {
+            border-radius: 3px red;
+            color: teal;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+
+        }
+
+        h1 {
+            font-size: 72px;
+        }
+
+        input[type=submit] {
+            color: red;
+            padding: 4px 4px;
+            background-color: white;
+            border-radius: 3px;
+            border-color: red;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 26px;
+        }
+
+        textarea {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 18px;
+            color: teal;
+        }
+
+        input[type=radio] {
+            border-radius: 30px;
+            border-color: teal;
+        }
+
+        .titlepic {
+            max-width: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Liverpool Lineup Selection <img src="images/liverppolupdate2.png" class="titlepic"> </h1>
+    <form action="/action_page.php" target="_blank" method="get">
+        <div>Opponent
+            <label for="opponent">Opponent</label><br>
+            <select id="opponent" name="opponent" size="1">
+                <option value="afc">AFC Bournemouth</option><br>
+                <option value="ars">Arsenal</option><br>
+                <option value="avf">Aston Villa</option><br>
+                <option value="bre">Brentford</option><br>
+                <option value="bha">Brighton</option><br>
+                <option value="che">Chelsea</option><br>
+                <option value="cry">Crystal Palace</option><br>
+                <option value="eve">Everton</option><br>
+                <option value="ful">Fulham</option><br>
+                <option value="ips">Ipswich</option><br>
+                <option value="lei">Leicester</option><br>
+                <option value="mci">Manchester City</option><br>
+                <option value="mau">Manchester United</option><br>
+                <option value="new">Newcastle</option><br>
+                <option value="for">Nottingham Forest</option><br>
+                <option value="sou">Southampton</option><br>
+                <option value="tot">Tottenham</option><br>
+                <option value="whu">West Ham United</option><br>
+                <option value="wol">Wolverhampton Wanderers</option>
+                <br>
+        </div>
+        </select><br>
+        <label for="gk">Goalkeeper:</label><br>
+        <input type="text" id="gk" name="gk"><br>
+        <label for="lb">Left Back:</label><br>
+        <input type="text" id="lb" name="lb"><br>
+        <label for="lcb">Left Centerback:</label><br>
+        <input type="text" id="lcb" name="lcb"><br>
+        <label for="rcb">Right Centerback:</label><br>
+        <input type="text" id="rcb" name="rcb"><br>
+        <label for="rightback">Right Back:</label><br>
+        <input type="text" id="rightback" name="rightback"><br>
+        <label for="cdm">Defensive Midfielder:</label><br>
+        <input type="text" id="cdm" name="cdm"><br>
+        <label for="cm">Central Midfielder:</label><br>
+        <input type="text" id="cm" name="cm"><br>
+        <label for="cam">Attacking Midfielder:</label><br>
+        <input type="text" id="cam" name="cam"><br>
+        <label for="lw">Left Wing:</label><br>
+        <input type="text" id="lw" name="lw"><br>
+        <label for="st">Striker:</label><br>
+        <input type="text" id="st" name="st"><br>
+        <label for="rw">Right Wing:</label><br>
+        <input type="text" id="rw" name="rw"><br>
+        <label for="formation">Formation:</label><br>
+        <input type="radio" id="formation" name="formation">4-2-3-1<br>
+        <input type="radio" id="formation" name="formation">4-3-3<br>
+        <input type="radio" id="formation" name="formation">4-2-4<br>
+        <input type="radio" id="formation" name="formation">4-1-4-1<br>
+        <label for="tactics">Tactics</label><br>
+        <input type="checkbox" id="tactics" name="tactics">Attacking<br>
+        <input type="checkbox" id="tactics" name="tactics">Balanced<br>
+        <input type="checkbox" id="tactics" name="tactics">Defensive<br>
+        <input type="checkbox" id="tactics" name="tactics">Heavy Press<br>
+        <input type="checkbox" id="tactics" name="tactics">Defensive<br>
+        <input type="checkbox" id="tactics" name="tactics">Mid-Block<br>
+        <input type="checkbox" id="tactics" name="tactics">Low-Block<br>
+        <input type="checkbox" id="tactics" name="tactics">Play Out From Back<br>
+        <input type="checkbox" id="tactics" name="tactics">Go Long<br>
+        <input type="checkbox" id="tactics" name="tactics">Play Down Middle<br>
+        <input type="checkbox" id="tactics" name="tactics">Play Down Flanks<br>
+        <input type="checkbox" id="tactics" name="tactics">Slow Build Up<br>
+        <input type="checkbox" id="tactics" name="tactics">Quick Build Up<br>
+        <div Game Ambitions>
+            <textarea name="goals" rows="20" cols="20">Expectations for the Team</textarea>
+        </div>
+
+
+        <div>Confirm Team:
+            <input type="submit" value="Submit Team">
+        </div>
+
+    </form>
+</body>
+
+</html>
