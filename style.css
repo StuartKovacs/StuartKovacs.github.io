@@ -6,6 +6,11 @@ img {
     margin-right: 10px;
 }
 
+.playerpic {
+    max-width: 300px;
+    border-radius:300px;
+}
+
 .special-image {
     border-radius: 0%;
 }
