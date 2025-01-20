@@ -190,6 +190,7 @@ h1 {
     font-size: 80px;
     color: purple;
     background-color:aqua;
+    background-size: cover;
 }
 
 .liverpool table,
