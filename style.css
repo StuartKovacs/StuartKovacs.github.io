@@ -12,7 +12,8 @@ img {
 }
 
 .special-image {
-    border-radius: 0%;
+    border-radius: 200%;
+    max-width: 300px;
 }
 
 p.playername {
@@ -143,9 +144,6 @@ h5 {
     font-weight: bold;
     text-align: center;
     align-items: center;
-
-
-
 }
 
 .balon td {
@@ -173,7 +171,6 @@ input[type=submit] {
     padding: 16px 32px;
     font-family: Georgia;
     font-size: 14px;
-
 }
 
 p {
@@ -192,7 +189,7 @@ h1 {
     text-align: center;
     font-size: 80px;
     color: purple;
-    background-color: dimgrey;
+    background-color:aqua;
 }
 
 .liverpool table,
