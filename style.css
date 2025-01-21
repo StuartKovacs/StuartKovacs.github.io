@@ -87,13 +87,14 @@ body {
 }
 
 h1 {
-    font-family: 'Bangers', 'sherif';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     font-weight: bolder;
     text-align: center;
     font-size: 72px;
-    color: black;
+    color: purple;
+    background-color: aqua;
+    background-size: cover;
 }
-
 h2 {
     font-family: Georgia;
     font-weight: bolder;
@@ -185,14 +186,7 @@ label {
     font-weight: bold;
 }
 
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-size: 80px;
-    color: purple;
-    background-color:aqua;
-    background-size: cover;
-}
+
 
 .liverpool table,
 .liverpool td,
