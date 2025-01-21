@@ -138,9 +138,10 @@ h5 {
 .balon tr,
 .balon td,
 .balon th {
-    background-color: darksalmon;
+    background-color: chocolate;
+    color: white;
     border: 2px solid;
-    border-color: black;
+    border-color: white;
     border-style: groove font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif font-size: 14px;
     font-weight: bold;
     text-align: center;
@@ -150,7 +151,7 @@ h5 {
 
 .balon td {
     border: 2px solid;
-    border-color: black;
+    border-color: white;
     border-style: groove;
     width: 10px;
 }
@@ -164,7 +165,7 @@ form {
     display: block;
     border: 2px black;
     font-family: Georgia;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 input[type=submit] {
@@ -181,7 +182,7 @@ p {
 }
 
 label {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
     font-size: 18px;
     font-weight: bold;
 }
