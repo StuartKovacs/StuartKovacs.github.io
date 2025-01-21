@@ -6,6 +6,11 @@ img {
     margin-right: 10px;
 }
 
+.header {
+    background-image: url(images/anfield.jpg) center;
+    background-size: cover;
+}
+
 .playerpic {
     max-width: 300px;
     border-radius:300px;
