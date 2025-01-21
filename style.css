@@ -13,6 +13,9 @@ img {
 
 .special-image {
     max-width: 300px;
+    border: solid
+    border-color: white;
+    border-radius: inherit;
 }
 
 p.playername {
