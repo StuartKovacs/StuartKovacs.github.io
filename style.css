@@ -6,31 +6,47 @@ img {
     margin-right: 10px;
 }
 
-.header {
+.banner {
     background: url(images/anfield.jpg) center;
     background-size: cover;
+    height: 900px;
+    width: 2500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 270px;
+    color: rgb(255, 255, 255);
+    padding-top: 250px;
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .playerpic {
     max-width: 300px;
     border-radius:300px;
+    background-color: white;
+    padding: 0.7rem;  
 }
 
 .special-image {
-    max-width: 300px;
-    background-color: white
-    padding: 1.11rem;
+    max-width: 700px;
+    background-color: white;
+    background-size: 500px;
+    border-color: white;
+    padding: 1.4rem;
+    
 }
 
 p.playername {
     font-weight: bolder;
-    font-size: 28px;
+    font-size: 42px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 p.teamname {
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 36px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
@@ -88,7 +104,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: rgb(179, 174, 133);
-    border-style: double;
+    border-style:dotted;
     border-width: 5px;
 }
 
@@ -103,10 +119,14 @@ h1 {
     font-style: normal;
 }
 h2 {
-    font-family: Georgia;
+    font-family: 'Bangers', sherif;
+    background-color: #00B2A9;
+    background-size: 100%;
+    padding-left: 550px;
+    padding-right: 550px;
     font-weight: bolder;
     text-align: center;
-    font-size: 48px;
+    font-size: 178px;
     color: black;
 }
 
@@ -114,7 +134,7 @@ h3 {
     font-family: Georgia;
     font-weight: bold;
     text-align: center;
-    font-size: 36px;
+    font-size: 92px;
 }
 
 h5 {
@@ -154,6 +174,7 @@ h5 {
     text-align: center;
     align-items: center;
     width: 50%;
+    
 }
 
 .balon td {
@@ -164,7 +185,7 @@ h5 {
 }
 
 .balon th {
-    font-size: 24px;
+    font-size: 55px;
     padding-top: 0%;
 }
 
@@ -185,7 +206,9 @@ input[type=submit] {
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 36px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 label {
